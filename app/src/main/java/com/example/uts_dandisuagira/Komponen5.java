@@ -31,7 +31,7 @@ public class Komponen5 extends AppCompatActivity {
 
 
     public void link(View view) {
-        Intent b = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+        Intent b = new Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.android.com/reference/android/content/Intent"));
         startActivity(b);
     }
 

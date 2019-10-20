@@ -30,7 +30,7 @@ public class Komponen4 extends AppCompatActivity {
     }
 
     public void link(View view) {
-        Intent b = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+        Intent b = new Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.android.com/guide/topics/manifest/provider-element"));
         startActivity(b);
     }
 }
